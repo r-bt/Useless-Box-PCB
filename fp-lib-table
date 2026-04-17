@@ -1,0 +1,7 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "RP2350_60QFN_minimal") (type "KiCad") (uri "${KIPRJMOD}/RP2350_60QFN_minimal.pretty") (options "") (descr ""))
+	(lib (name "footprints") (type "KiCad") (uri "${KIPRJMOD}/XAL6030-102MEC/footprints.pretty") (options "") (descr ""))
+	(lib (name "RHA0J471MCN1GS") (type "KiCad") (uri "${KIPRJMOD}/RHA0J471MCN1GS/RHA0J471MCN1GS.pretty") (options "") (descr ""))
+	(lib (name "RHA0J471MCN1GS") (type "KiCad") (uri "${KIPRJMOD}/RHA0J471MCN1GS/RHA0J471MCN1GS.pretty") (options "") (descr ""))
+)
