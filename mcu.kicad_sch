@@ -8,6 +8,129 @@
 		(title "MCU")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic_MountingPin:Conn_01x03_MountingPin"
 			(pin_names
 				(offset 1.016)
@@ -3412,6 +3535,12 @@
 		(uuid "9b3992cd-c517-4ee9-842d-8d646a7c36ea")
 	)
 	(junction
+		(at 243.84 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f5cc314-f416-4014-94f6-391c576846ea")
+	)
+	(junction
 		(at 68.58 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3538,8 +3667,24 @@
 		(uuid "fefa684f-2a8a-462f-a161-fa66b3fbbb21")
 	)
 	(no_connect
+		(at 133.35 101.6)
+		(uuid "05fcf791-7111-42a0-8b55-70ee67cad834")
+	)
+	(no_connect
+		(at 133.35 96.52)
+		(uuid "1597eeba-ff03-4974-9add-fb3c7085522f")
+	)
+	(no_connect
 		(at 133.35 132.08)
 		(uuid "26deafd6-1177-4321-a0cd-0ac8e8f45e8d")
+	)
+	(no_connect
+		(at 133.35 114.3)
+		(uuid "561a8c1a-42d3-4e30-a165-31bb5e93b5d0")
+	)
+	(no_connect
+		(at 133.35 111.76)
+		(uuid "66b642a1-9768-4b3f-a26a-d277aac64019")
 	)
 	(no_connect
 		(at 133.35 109.22)
@@ -3558,8 +3703,28 @@
 		(uuid "9ed74407-9a3e-4daf-8faf-22baf6020b4c")
 	)
 	(no_connect
+		(at 133.35 99.06)
+		(uuid "b08cbcf6-7ece-483c-b6db-fba425c1b8ca")
+	)
+	(no_connect
 		(at 133.35 124.46)
 		(uuid "b8a5cafa-e5e8-45cb-8c3f-3dc4ba6e62be")
+	)
+	(no_connect
+		(at 133.35 106.68)
+		(uuid "b98c18c1-7d41-4c49-8c5d-e043fe1f8ac1")
+	)
+	(no_connect
+		(at 133.35 116.84)
+		(uuid "ea571bb6-d0e8-47a2-9306-0f0775f42206")
+	)
+	(no_connect
+		(at 133.35 104.14)
+		(uuid "eb830447-ca4a-4992-baad-f992b469ec07")
+	)
+	(no_connect
+		(at 133.35 137.16)
+		(uuid "fb0522bc-1e5e-46e2-bf0a-322ea1bb84c8")
 	)
 	(wire
 		(pts
@@ -3733,6 +3898,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 24.13) (xy 243.84 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13a74791-2727-491e-9411-7e516fcd9e50")
+	)
+	(wire
+		(pts
 			(xy 161.29 33.02) (xy 161.29 36.83)
 		)
 		(stroke
@@ -3863,7 +4038,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 22.86) (xy 243.84 25.4)
+			(xy 243.84 22.86) (xy 243.84 24.13)
 		)
 		(stroke
 			(width 0)
@@ -4030,6 +4205,16 @@
 			(type default)
 		)
 		(uuid "3b3e4cce-4828-4606-97e6-9a24ebecba16")
+	)
+	(wire
+		(pts
+			(xy 243.84 24.13) (xy 243.84 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c447806-72ae-49b2-a633-d28fd5e76c70")
 	)
 	(wire
 		(pts
@@ -6636,6 +6821,83 @@
 			(project "octov1.1"
 				(path "/24892b13-7569-4118-b17c-686e889722f8/aab14ee1-3ec8-4208-96cf-f65e1eb09fc8"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 241.3 24.13 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42ba355c-2d06-401d-9d40-ba04708a21b3")
+		(property "Reference" "TP4"
+			(at 237.998 19.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 237.998 21.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 241.3 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 241.3 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92680d2e-41e5-4784-8641-b47eac5f8eb9")
+		)
+		(instances
+			(project "octov1.1"
+				(path "/24892b13-7569-4118-b17c-686e889722f8/aab14ee1-3ec8-4208-96cf-f65e1eb09fc8"
+					(reference "TP4")
 					(unit 1)
 				)
 			)

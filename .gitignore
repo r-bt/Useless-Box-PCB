@@ -1,3 +1,5 @@
 *.lck
 .DS_STORE
 *.zip
+jlcpcb/*
+.history

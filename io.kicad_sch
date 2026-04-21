@@ -2377,7 +2377,7 @@
 		(fields_autoplaced yes)
 		(uuid "22c319ed-b231-41dd-ae99-3a9020667b3e")
 		(property "Reference" "C24"
-			(at 24.13 108.3309 0)
+			(at 24.13 107.0609 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2387,8 +2387,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 24.13 110.8709 0)
+		(property "Value" "470u"
+			(at 24.13 109.6009 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2399,13 +2399,14 @@
 			)
 		)
 		(property "Footprint" "RHA0J471MCN1GS:CAP_RHA&slash_HS_8X6P7_NCH"
-			(at 21.2852 114.3 0)
+			(at 24.13 112.1409 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Datasheet" ""
@@ -3601,7 +3602,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "470u"
 			(at 41.91 110.8709 0)
 			(show_name no)
 			(do_not_autoplace no)
